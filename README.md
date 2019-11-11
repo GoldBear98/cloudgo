@@ -135,13 +135,21 @@ ab -n 10000 -c 100 http://localhost:5050/hello/goldbear98
 
 最后对重要参数进行解释：
 Server Hostname    服务器主机名
+
 Server Port	服务器端口
+
 Document Path	文件路径
+
 Document Length	文件大小
+
 Concurrency Level	并发等级
-Requst per second	平均每秒的请求个数。
-Time per request	用户平均的等待时间。
-Connection Times	表内描述了所有的过程中所消耗的最小、中位、最长时间。
+
+Requst per second	平均每秒的请求个数
+
+Time per request	用户平均的等待时间
+
+Connection Times	表内描述了所有的过程中所消耗的最小、中位、最长时间
+
 Percentage of the requests served within a certain time	每个百分段的请求完成所需的时间
 
 [我的博客](https://github.com/GoldBear98/cloudgo)
