@@ -84,7 +84,9 @@ git clone https://github.com/go-martini/martini
 git clone https://github.com/codegangsta/inject
 ```
 
-终于不再有报错出现，可以运行main.go了：![在这里插入图片描述](https://img-blog.csdnimg.cn/20191111232059936.png)![在这里插入图片描述](https://img-blog.csdnimg.cn/20191111230935455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dvbGRCZWFyOTg=,size_16,color_FFFFFF,t_70)
+终于不再有报错出现，可以运行main.go了：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191111232059936.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191111230935455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dvbGRCZWFyOTg=,size_16,color_FFFFFF,t_70)
 可以看到实验中我选取的端口是5050，在main文件夹下输入测试指令`go run main.go -p5050`后，打开Google Chrome浏览器，输入网址`http://localhost:5050/hello/goldbear98`可以看到出现了想要的结果——Hello goldbear98 !
 
 接下来使用curl测试：
@@ -93,7 +95,8 @@ git clone https://github.com/codegangsta/inject
 ```
 curl -v http://localhost:5050/hello/goldbear98
 ```
-得到的结果如下所示：![在这里插入图片描述](https://img-blog.csdnimg.cn/20191112000858536.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dvbGRCZWFyOTg=,size_16,color_FFFFFF,t_70)
+得到的结果如下所示：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191112000858536.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dvbGRCZWFyOTg=,size_16,color_FFFFFF,t_70)
 在第一个终端下的结果如下所示：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191112001050526.png)
 说明可以监听到，test测试成功。
