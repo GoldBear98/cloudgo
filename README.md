@@ -2,8 +2,11 @@
 开发简单web服务程序cloudgo，了解web服务器工作原理。
 任务目标：
 （1）熟悉go服务器工作原理
+
 （2）基于现有web库，编写一个简单web应用类似cloudgo
+
 （3）使用curl工具访问web程序
+
 （4）对web执行压力测试
 
 **2、任务要求**
@@ -11,7 +14,9 @@
 （1）编程web服务程序 类似cloudgo应用。
 	要求有详细的注释
 	是否使用框架、选哪个框架自己决定请在README.md 说明你决策的依据
+	
 （2）使用 curl 测试，将测试结果写入 README.md
+
 （3）使用 ab 测试，将测试结果写入 README.md。并解释重要参数。
 
 **3.实验过程**
@@ -118,4 +123,4 @@ Time per request	用户平均的等待时间。
 Connection Times	表内描述了所有的过程中所消耗的最小、中位、最长时间。
 Percentage of the requests served within a certain time	每个百分段的请求完成所需的时间
 
-[Github](https://github.com/GoldBear98/cloudgo)
+[我的博客](https://github.com/GoldBear98/cloudgo)
